@@ -2,15 +2,20 @@
 <html lang="ru">
 <head>
     <title>Lab2</title>
+    <link rel="stylesheet" href="CSS/css_main.css">
     <nav>
         <ul>
-            <li>Товары</li>
-            <li>Услуги</li>
-            <li>AUDIO SHELF</li>
-            <li>Блог</li>
-            <li>Контакты</li>
+            <li class="nav_li">Товары</li>
+            <li class="nav_li">Услуги</li>
         </ul>
     </nav>
+        <img class="head_img" src="img/icon_audio_shelf.svg" alt="icon_audio_shelf">
+        <nav>
+            <ul>
+                <li class="nav_li">Блог</li>
+                <li class="nav_li">Контакты</li>
+            </ul>
+        </nav>
 </head>
 <body>
     <articale>
@@ -47,9 +52,9 @@
                 <ul>
                     <li>Bach: Mass in B minor — Kyrie I - Herreweghe</li>
                     <li>Brian Eno — Ikebukuro</li>
-                    <li>The Kilimanjaro Darkjazz Ensemble —  Cotard Delusion</li>
+                    <li>The Kilimanjaro Darkjazz Ensemble — Cotard Delusion</li>
                     <li>NRSB-11 - 685-471 2</li>
-                    <li>Resynthesis (3D Binaural Audio) by Max Cooper and Kevin McGloughlin</li>
+                    <li>Resynthesis (3D Binaural Audio) by MaxCooper and Kevin McGloughlin</li>
                     <li>Sickdisco - Aliens Eating People</li>
                 </ul>
             </div>
@@ -58,9 +63,9 @@
                 <ol>
                     <li>Bach: Mass in B minor — Kyrie I - Herreweghe</li>
                     <li>Brian Eno — Ikebukuro</li>
-                    <li>The Kilimanjaro Darkjazz Ensemble —  Cotard Delusion</li>
+                    <li>The Kilimanjaro Darkjazz Ensemble — Cotard Delusion</li>
                     <li>NRSB-11 - 685-471 2</li>
-                    <li>Resynthesis (3D Binaural Audio) by Max Cooper and Kevin McGloughlin</li>
+                    <li>Resynthesis (3D Binaural Audio) by MaxCooper and Kevin McGloughlin</li>
                     <li>Sickdisco - Aliens Eating People</li>
                 </ol>
             </div>
@@ -80,7 +85,7 @@
     </div>
     <div>
         <h1>Похожие новости</h1>
-        <div>
+        <div class="img-text_3">
             <img src="img/violin.svg" alt="violin">
             <p>6 часов назад</p>
             <h2>Технологии шумоподавления</h2>
@@ -90,7 +95,70 @@
             <button>Технологии</button>
             <button>Мастерство</button>
         </div>
+        <div class="img-text_3">
+            <img src="img/people_book.svg" alt="people_book">
+            <p>7 часов назад</p>
+            <h2>Истории про звук</h2>
+            <p>читать 12 минут</p>
+            <button>Увлекательная история</button>
+            <button>Звук</button>
+            <button>Сквозь времена</button>
+            <button>Люди</button>
+            <button>Дизайн</button>
+        </div>
+        <div class="img-text_3">
+            <img src="img/laboratory.svg" alt="laboratory">
+            <p>8 февраля 2021</p>
+            <h2>Добро пожаловать на наш новый сайт блог!</h2>
+            <p>читать 5 минут</p>
+            <button>Новость</button>
+            <button>Звук</button>
+            <button>Люди</button>
+            <button>Дизайн</button>
+        </div>
     </div>
+    <form class="email">
+        <img src="img/img_email.svg" alt="img_email">
+        <h2>Оставайтесь на связи</h2>
+        <p>Подпишитесь на нашу рассылку, чтобы получать новости о продуктах и обновлениях, отвечающих Вашим предпочтениям, а так же приглашения на эксклюзивные мероприятия</p>
+        <label> Email: <input></label>
+        <button>Подписаться </button>
+    </form>
     </articale>
+    <footer>
+        <img src="img/icon_audio_shelf.svg" alt="icon_audio_shelf">
+        <div>
+            <img src="img/flag_RU.svg" alt="flag_RU">
+            <select>
+                <option>RU</option>
+            </select>
+            <p>© 2020 Audioshells</p>
+        </div>
+        <div>
+            <h3>Смотрите</h3>
+            <p>Товары</p>
+            <p>Услуги</p>
+            <p>Блог</p>
+            <p>Контакты</p>
+        </div>
+        <div>
+            <h3>Обслуживание клиентов</h3>
+            <p>Свяжитесь с нами</p>
+            <p>Политика конфиденциальности</p></div>
+        <div>
+            <h3>Контакты</h3>
+            <p>
+                <img src="img/phone_icon.svg" alt="phone_icon">
+                8(800)200-46-66
+            </p>
+            <p>
+                <img src="img/email_icon.svg" alt="email_icon">
+                auioshells@gmail.com
+            </p>
+            <img src ="img/icon_instagram.svg" alt="icon instagram">
+            <img src ="img/icon_facebook.svg" alt="icon facebook">
+            <img src ="img/icon_twitter.svg" alt="icon twitter">
+        </div>
+    </footer>
 </body>
 </html>
