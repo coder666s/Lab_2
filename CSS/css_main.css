@@ -1,23 +1,32 @@
  
  @import url('https://fonts.googleapis.com/css2?family=Arimo:wght@600&display=swap');
- 
- nav{
+ @import url('https://fonts.googleapis.com/css2?family=Arimo&display=swap');
+
+nav {
+    display: flex;
+    justify-content: space-around;
     background-color: #f9f8f5;
-    text-align: center;
-}
-nav p{
-    display: inline-block
-    ;/* Отвечает за одну строчку внутри блока*/
 }
 h1{
     font-family: 'Arimo', sans-serif;
 }
+p{
+    font-family: 'Arimo', sans-serif;
+}
 #Radio_Marshall{
-    
+    margin: 0 auto;
+}
+.img_2{
+    display: flex;
+    justify-content: space-around;
+}
+.natural_array{
+    display: flex;
+    justify-content: space-around;
 }
 .img-text_3{
-    display: inline-block;
-    position: static;
+    display: flex;
+    justify-content: space-around;
 }
 .email{
     display: flex;
@@ -26,10 +35,12 @@ h1{
     align-items: center;
 }
 footer{
+    display: flex;
+    justify-content: space-around;
     background-color: #f9f8f5; /* Отвечает за сбор в одну строчку*/
 }
-footer div{
-    display: inline-block; /* Отвечает за сбор в одну строчку*/
-}
+/*footer div{
+    display: inline-block; /* Отвечает за сбор в одну строчку
+}*/
 
 
