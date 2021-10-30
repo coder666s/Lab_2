@@ -1,8 +1,25 @@
- 
 @import url('https://fonts.googleapis.com/css2?family=Arimo&display=swap');
+
+:root {
+    --button-color-text: #647382;
+}
+
  nav {
+    background-color: #f9f8f5;
     display: flex;
     justify-content: space-around;
+    align-items: center;
+    margin: 40px;
+    padding: 10px 0px;
+ }
+nav a{
+    color:black;
+    font-family: 'Arimo', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    text-decoration: none;
+
 }
 h1{
     font-family: 'Arimo', sans-serif;
@@ -18,12 +35,6 @@ h2{
     font-size: 36px;
     color: #647382;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);   
-}
-a{
-    font-family: 'Arimo', sans-serif;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 18px;
 }
 #Radio_Marshall{
     margin: 0 auto;
@@ -51,8 +62,46 @@ footer{
     justify-content: space-around;
     background-color: #f9f8f5; /* Отвечает за сбор в одну строчку*/
 }
-/*footer div{
-    display: inline-block; /* Отвечает за сбор в одну строчку
-}*/
+.tag-link{
+    font-family: 'Arimo', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
 
+    text-decoration: none;
+    color: var(--button-color-text);
 
+    display: inline-block;
+    padding: 1em;
+    border: 1px solid grey;
+    border-radius: 2px;
+}
+.button_icon_text{
+    display: flex;
+    margin: 40px;
+}
+.button_icon{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 215px;
+    height: 302px;
+    margin-right: 98px;
+}
+.button_icon p{
+    margin-top: 40px;
+    margin-bottom: 32px;
+}
+.button_icon img{
+    margin-top: 40px;
+
+}
+.button_icon hr{
+    width: 24px;
+    background-color: #DBE0E6;
+    border:1px solid #DBE0E6;
+}
+.text{
+    width: 900px;
+    height: 580px;
+}
