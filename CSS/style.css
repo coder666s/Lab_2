@@ -28,20 +28,53 @@ h1{
     font-size: 60px;
 
 }
-h2{
+.favorite_playlists{
     font-family: 'Arimo', sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 36px;
     color: #647382;
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);   
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);  
+    line-height: 42px;
+
+    -webkit-text-stroke: 1px black; /*рамка для каждой буквы в тексте*/
+}
+p{
+    font-family: 'Arimo', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 32px;
 }
 #Radio_Marshall{
     margin: 0 auto;
 }
 .img_2{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
+    
+}
+.music{
+    display: flex;
+    flex-direction: column;
+    margin: 0% 25%;
+    width: 900px;
+    height: 1106px;
+}
+.music p{
+    margin-top: 40px;
+}
+.record_player_2_text{
+    display: flex;
+    margin: 40px 0px;
+    
+}
+.record_player_2_text p{
+    margin-left: 40px;
+
+}
+.list_music{
+    display:flex;   
 }
 .natural_array{
     display: flex;
@@ -72,7 +105,7 @@ footer{
     color: var(--button-color-text);
 
     display: inline-block;
-    padding: 1em;
+    padding: 0.5em 1em;
     border: 1px solid grey;
     border-radius: 2px;
 }
