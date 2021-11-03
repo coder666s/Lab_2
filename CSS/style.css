@@ -28,6 +28,10 @@ h1{
     font-size: 60px;
 
 }
+#Radio_Marshall{
+    width: 100%;
+    margin-bottom: 40px;
+}
 .favorite_playlists{
     font-family: 'Arimo', sans-serif;
     font-style: normal;
@@ -45,69 +49,6 @@ p{
     font-weight: normal;
     font-size: 18px;
     line-height: 32px;
-}
-#Radio_Marshall{
-    margin: 0 auto;
-}
-.img_2{
-    display: flex;
-    justify-content: space-evenly;
-    
-}
-.music{
-    display: flex;
-    flex-direction: column;
-    margin: 0% 25%;
-    width: 900px;
-    height: 1106px;
-}
-.music p{
-    margin-top: 40px;
-}
-.record_player_2_text{
-    display: flex;
-    margin: 40px 0px;
-    
-}
-.record_player_2_text p{
-    margin-left: 40px;
-
-}
-.list_music{
-    display:flex;   
-}
-.natural_array{
-    display: flex;
-    justify-content: space-around;
-}
-.img-text_3{
-    display: flex;
-    justify-content: space-around;
-}
-.email{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-footer{
-    display: flex;
-    justify-content: space-around;
-    background-color: #f9f8f5; /* Отвечает за сбор в одну строчку*/
-}
-.tag-link{
-    font-family: 'Arimo', sans-serif;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 18px;
-
-    text-decoration: none;
-    color: var(--button-color-text);
-
-    display: inline-block;
-    padding: 0.5em 1em;
-    border: 1px solid grey;
-    border-radius: 2px;
 }
 .button_icon_text{
     display: flex;
@@ -137,4 +78,91 @@ footer{
 .text{
     width: 900px;
     height: 580px;
+}
+.img_2{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0px 40px;
+    flex-wrap: wrap;
+}
+.for_music{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+.music{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 900px;
+}
+.record_player_2_text{
+    display: flex;
+    margin-top: 32px;
+    margin-bottom: 40px;
+    
+}
+.record_player_2_text p{
+    margin-left: 40px;
+
+}
+.list_music{
+    display:flex;
+    line-height: 32px;   
+}
+.music a{
+    color: black;
+    font-weight: bold;
+}
+.natural_array{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 80px 0px;
+}
+.array_element_1{
+    background-color: #f9f8f5;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+    width: 763px;
+}
+.array_element_1 hr{
+    width: 40px;
+    background-color: black;
+    border:1px solid black;
+}
+.natural_array img{
+    margin: 0px;
+}
+.img-text_3{
+    display: flex;
+    justify-content: space-around;
+}
+.email{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+footer{
+    display: flex;
+    justify-content: space-around;
+    background-color: #f9f8f5; /* Отвечает за сбор в одну строчку*/
+}
+.tag-link{
+    font-family: 'Arimo', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+
+    text-decoration: none;
+    color: var(--button-color-text);
+
+    display: inline-block;
+    padding: 0.5em 1em;
+    border: 1px solid grey;
+    border-radius: 2px;
 }
