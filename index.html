@@ -94,17 +94,17 @@
                     <label>Перейти в конфигуратор <img src="img/arrow_right.svg" alt="arrow_right"></label>
                 </div>
             </div>
-            <img src="img/speaker.svg" alt="speaker">
+            <img class="speaker" src="img/speaker.svg" alt="speaker">
         </div>
             <label class="back_list_articles"><img src="img/arrow_left.svg" alt="arrow_left"> Назад к списку статей</label>
     </div>
     <h1>Похожие новости</h1>
     <div class="img-text_3">
-        <div class="img-text_3-1-2">
-            <img src="img/violin.svg" alt="violin">
-            <p>6 часов назад</p>
-            <h2>Технологии шумоподавления</h2>
-            <p>читать 7 минут</p>
+        <div class="img-text_3-block">
+            <img class="img-text_3-img" src="img/violin.svg" alt="violin">
+            <p class="img-text_3-img">6 часов назад</p>
+            <h2 class="img-text_3-img">Технологии шумоподавления</h2>
+            <p class="img-text_3-img">читать 7 минут</p>
             <div class="button_tag-link">
                 <a class="tag-link" href="#">Статья</a>
                 <a class="tag-link" href="#">Звук</a>
@@ -112,11 +112,11 @@
                 <a class="tag-link" href="#">Мастерство</a>
             </div>
         </div>
-        <div class="img-text_3-1-2">
-            <img src="img/people_book.svg" alt="people_book">
-            <p>7 часов назад</p>
-            <h2>Истории про звук</h2>
-            <p>читать 12 минут</p>
+        <div class="img-text_3-block">
+            <img class="img-text_3-img" src="img/people_book.svg" alt="people_book">
+            <p class="img-text_3-img">7 часов назад</p>
+            <h2 class="img-text_3-img">Истории про звук</h2>
+            <p class="img-text_3-img">читать 12 минут</p>
             <div class="button_tag-link">
                 <a class="tag-link" href="#">Увлекательная история</a>
                 <a class="tag-link" href="#">Звук</a>
@@ -125,11 +125,11 @@
                 <a class="tag-link" href="#">Дизайн</a>
             </div>
         </div>
-        <div class="img-text_3-1-2">
-            <img src="img/laboratory.svg" alt="laboratory">
-            <p>8 февраля 2021</p>
-            <h2>Добро пожаловать на наш новый сайт блог!</h2>
-            <p>читать 5 минут</p>
+        <div class="img-text_3-block">
+            <img class="img-text_3-img" src="img/laboratory.svg" alt="laboratory">
+            <p class="img-text_3-img">8 февраля 2021</p>
+            <h2 class="img-text_3-img">Добро пожаловать на наш новый сайт блог!</h2>
+            <p class="img-text_3-img">читать 5 минут</p>
             <a class="tag-link" href="#">Новость</a>
             <a class="tag-link" href="#">Звук</a>
             <a class="tag-link" href="#">Люди</a>
@@ -146,40 +146,44 @@
     </article>
     </main>
     <footer>
-        <div>
-            <img src="img/icon_audio_shelf.svg" alt="icon_audio_shelf">
-            <br>
-            <img src="img/flag_RU.svg" alt="flag_RU">
-            <select>
-                <option>RU</option>
-            </select>
-            <p>© 2020 Audioshells</p>
-        </div>
-        <div>
+        <section>
+                <img src="img/icon_audio_shelf.svg" alt="icon_audio_shelf">
+                <div>
+                    <img src="img/flag_RU.svg" alt="flag_RU">
+                    <select>
+                        <option>RU</option>
+                    </select>
+                </div>
+                <p>© 2020 Audioshells</p>
+        </section>
+        <section>
             <h3>Смотрите</h3>
             <p>Товары</p>
             <p>Услуги</p>
             <p>Блог</p>
             <p>Контакты</p>
-        </div>
-        <div>
+        </section>
+        <section>
             <h3>Обслуживание клиентов</h3>
             <p>Свяжитесь с нами</p>
-            <p>Политика конфиденциальности</p></div>
-        <div>
+            <p>Политика конфиденциальности</p>
+        </section>
+        <section>
             <h3>Контакты</h3>
-            <p>
+            <a href="tel:8(800)200-46-66">
                 <img src="img/phone_icon.svg" alt="phone_icon">
                 8(800)200-46-66
-            </p>
-            <p>
+            </a>
+            <a href="mailto:auioshells@gmail.com">
                 <img src="img/email_icon.svg" alt="email_icon">
                 auioshells@gmail.com
-            </p>
-            <img src ="img/icon_instagram.svg" alt="icon instagram">
-            <img src ="img/icon_facebook.svg" alt="icon facebook">
-            <img src ="img/icon_twitter.svg" alt="icon twitter">
-        </div>
+            </a>
+            <div>
+                <img src ="img/icon_instagram.svg" alt="icon instagram">
+                <img src ="img/icon_facebook.svg" alt="icon facebook">
+                <img src ="img/icon_twitter.svg" alt="icon twitter">
+            </div>
+        </section>
     </footer>
 </body>
 </html>

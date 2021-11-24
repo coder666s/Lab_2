@@ -82,8 +82,11 @@ p{
 .img_2{
     display: flex;
     justify-content: space-evenly;
-    margin: 0px 40px;
-    flex-wrap: wrap;
+    margin: 0 auto;
+}
+.img_2 img{
+    justify-content: space-evenly;
+    width: 45%;
 }
 .for_music{
     display: flex;
@@ -116,14 +119,13 @@ p{
 }
 .natural_array{
     display: flex;
-    width: 100%;
     justify-content: center;
-    margin: 40px 0px;
+    margin: 0 auto;
 }
 .array_element_1{
     background-color: #f9f8f5;
     display: flex;
-    width: 743px;
+    width: 50%;
 }
 .array_element_1-1{
     display: flex;
@@ -142,8 +144,8 @@ p{
     background-color: black;
     border:1px solid black;
 }
-.natural_array img{
-    margin: 0px;
+.speaker{
+    width: 50%;
 }
 .back_list_articles{
     display: flex;
@@ -151,12 +153,14 @@ p{
 }
 .img-text_3{
     display: flex;
-    min-width: 720px;
-    max-width: 1536px;
-
+    margin: 0 auto;
 }
-.img-text_3-1-2{
-    width: 100%;
+.img-text_3-img{
+    width: 75%;
+}
+.img-text_3-block{
+    justify-content: space-evenly;
+    width: 33%;
 }
 .email{
     display: flex;
@@ -166,8 +170,16 @@ p{
 }
 footer{
     display: flex;
+    flex-direction: row;
     justify-content: space-around;
     background-color: #f9f8f5; /* Отвечает за сбор в одну строчку*/
+    
+}
+footer section{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0.8em;
 }
 .tag-link{
     font-family: 'Arimo', sans-serif;
