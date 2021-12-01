@@ -168,12 +168,45 @@ p{
     justify-content: center;
     align-items: center;
 }
+.email h2{
+    width: 50%;
+    text-align: center;
+    margin-top: 40px;
+}
+.email_string{
+    width: 50%;
+}
+.email p{
+    width: 50%;
+    text-align: center;
+    margin: 24px 0px;
+}
+.email_string hr{
+    width: 100%;
+}
+.email_string input{
+    width: 94%;
+    outline: none;
+    border: none;
+    
+}
+.email_string div{
+    text-align: center;
+    margin: 56px auto;
+}
+button{
+    padding: 0.5em 1em;
+    border: 3px solid black;
+}
+button img{
+    margin-left: 116px;
+}
 footer{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    margin: 40px;
     background-color: #f9f8f5; /* Отвечает за сбор в одну строчку*/
-    
 }
 footer section{
     display: flex;
