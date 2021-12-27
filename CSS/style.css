@@ -2,10 +2,11 @@
 
 :root {
     --button-color-text: #647382;
+    --header-footer_background-color: #f9f8f5;
 }
 
  nav {
-    background-color: #f9f8f5;
+    background-color: var(--header-footer_background-color);
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -21,7 +22,10 @@ nav a{
     text-decoration: none;
 
 }
-h1{
+.favorite-tracks{
+    margin-left: 10%;
+    width: 60%;
+
     font-family: 'Arimo', sans-serif;
     font-style: normal;
     font-weight: 300;
@@ -120,7 +124,7 @@ p{
 .natural_array{
     display: flex;
     justify-content: center;
-    margin: 0 auto;
+    margin: 0 3%;
 }
 .array_element_1{
     background-color: #f9f8f5;
@@ -150,17 +154,32 @@ p{
 .back_list_articles{
     display: flex;
     justify-content: center;
+    margin-top: 80px;
+}
+.back_list_articles img{
+    display: flex;
+    justify-content: center;
+    margin-right: 16px;
+}
+.news{
+    margin-left: 5%;
+
+    font-family: 'Arimo', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 60px;
 }
 .img-text_3{
     display: flex;
-    margin: 0 auto;
+    Justify-content: center;
+    margin: 0 3%;
 }
 .img-text_3-img{
-    width: 75%;
+    width: 95%;
 }
 .img-text_3-block{
     justify-content: space-evenly;
-    width: 33%;
+    width: 32%;
 }
 .email{
     display: flex;
@@ -195,6 +214,7 @@ p{
     margin: 56px auto;
 }
 button{
+    background-color: #fff;
     padding: 0.5em 1em;
     border: 3px solid black;
 }
@@ -206,7 +226,7 @@ footer{
     flex-direction: row;
     justify-content: space-around;
     margin: 40px;
-    background-color: #f9f8f5; /* Отвечает за сбор в одну строчку*/
+    background-color: var(--header-footer_background-color);
 }
 footer section{
     display: flex;
@@ -227,4 +247,5 @@ footer section{
     padding: 0.5em 1em;
     border: 1px solid grey;
     border-radius: 2px;
+    margin: 8px;
 }
