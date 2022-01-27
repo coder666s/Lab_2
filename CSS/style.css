@@ -4,7 +4,9 @@
     --button-color-text: #647382;
     --header-footer_background-color: #f9f8f5;
 }
-
+body{
+    font-family: 'Arimo', sans-serif;
+}
  nav {
     background-color: var(--header-footer_background-color);
     display: flex;
@@ -15,7 +17,6 @@
  }
 nav a{
     color:black;
-    font-family: 'Arimo', sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
@@ -25,8 +26,6 @@ nav a{
 .favorite-tracks{
     margin-left: 10%;
     width: 60%;
-
-    font-family: 'Arimo', sans-serif;
     font-style: normal;
     font-weight: 300;
     font-size: 60px;
@@ -37,7 +36,6 @@ nav a{
     margin-bottom: 40px;
 }
 .favorite_playlists{
-    font-family: 'Arimo', sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 36px;
@@ -48,7 +46,6 @@ nav a{
     -webkit-text-stroke: 1px black; /*рамка для каждой буквы в тексте*/
 }
 p{
-    font-family: 'Arimo', sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
@@ -138,7 +135,6 @@ p{
     margin:80px;
 }
 .array_element_1-1 h3{
-    font-family: 'Arimo', sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 36px;
@@ -163,8 +159,6 @@ p{
 }
 .news{
     margin-left: 5%;
-
-    font-family: 'Arimo', sans-serif;
     font-style: normal;
     font-weight: 300;
     font-size: 60px;
@@ -235,7 +229,6 @@ footer section{
     padding: 0.8em;
 }
 .tag-link{
-    font-family: 'Arimo', sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
