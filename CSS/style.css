@@ -60,7 +60,6 @@ p{
     flex-direction: column;
     justify-content: space-around;
     width: 215px;
-    height: 302px;
     margin-right: 98px;
 }
 .button_icon p{
@@ -78,7 +77,7 @@ p{
 }
 .text{
     width: 900px;
-    height: 580px;
+    
 }
 .img_2{
     display: flex;
