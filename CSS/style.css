@@ -228,6 +228,13 @@ footer section{
     justify-content: space-between;
     padding: 0.8em;
 }
+.styleinf a{
+    color:black;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    text-decoration: none;
+}
 .tag-link{
     font-style: normal;
     font-weight: normal;
